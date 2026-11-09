@@ -45,7 +45,9 @@ export default [
     route("admin/categories", "routes/admin.categories.tsx"),
     route("settings", "routes/settings.tsx"),
     route("team", "routes/team.tsx"),
-    route("redeem/:code", "routes/redeem.$code.tsx"),
+    route("seats/:code/claim", "routes/seats.$code.claim.tsx"),
+    // Seat links shared before the rename still point here.
+    route("redeem/:code", "routes/redeem.$code.ts"),
   ]),
   route("signup", "routes/signup.tsx"),
   route("login", "routes/login.tsx"),
