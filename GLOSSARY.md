@@ -44,7 +44,7 @@ A Refund Request the team has turned down. It has no Refund, and the learner may
 
 **Refund**:
 The money returned to a learner after their Refund Request is approved. It is always the full amount they paid. A declined Refund Request has no Refund.
-_Avoid_: Reversal, Cancellation, Chargeback (a different thing)
+_Avoid_: Reversal, Cancellation, Chargeback
 
 **Pending Refund**:
 A Refund the team has approved where the money hasn't been confirmed as sent yet.
@@ -56,7 +56,3 @@ _Avoid_: Completed, Paid out
 
 **Failed Refund**:
 A Refund where the money couldn't be sent. The Refund Request stays approved, because the decision hasn't changed.
-
-**Chargeback**:
-Money forced back to a learner through their bank or card issuer, outside the Refund Request process. The team does not approve or decline it.
-_Avoid_: Refund, Dispute (for a Refund Request)
