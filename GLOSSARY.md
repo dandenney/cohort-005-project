@@ -22,6 +22,12 @@ _Avoid_: Coupon, Code, License
 A Seat a learner has taken up. A Purchase with any Claimed Seat can no longer get a Refund.
 _Avoid_: Redeemed
 
+### Running Cadence
+
+**Admin**:
+A member of Cadence staff who runs the platform. Only an Admin decides a Refund Request; the instructor of the course does not.
+_Avoid_: the team, Support, Staff
+
 ### Refunds
 
 **Refund Window**:
@@ -29,25 +35,25 @@ The 14 days after a Purchase during which a learner may raise a Refund Request.
 _Avoid_: Cancellation period, Grace period
 
 **Refund Request**:
-A learner's ask, with their reason, to get back what they paid for a purchase. The team approves or declines it. One purchase can have several Refund Requests over time, but only one can be undecided at once.
+A learner's ask, with their reason, to get back what they paid for a purchase. An Admin approves or declines it. One purchase can have several Refund Requests over time, but only one can be undecided at once.
 _Avoid_: Refund (for the ask itself), Cancellation, Reversal
 
 **Open Refund Request**:
-A Refund Request the team hasn't decided yet.
+A Refund Request no Admin has decided yet.
 _Avoid_: Pending, Requested, Awaiting review
 
 **Approved Refund Request**:
-A Refund Request the team has accepted. Approving it is what leads to a Refund.
+A Refund Request an Admin has accepted. Approving it is what leads to a Refund, ends the learner's access to the course, and cancels any unclaimed Seats on the Purchase.
 
 **Declined Refund Request**:
-A Refund Request the team has turned down. It has no Refund, and the learner may raise a new Refund Request.
+A Refund Request an Admin has turned down, with a note telling the learner why. It has no Refund, and the learner may raise a new Refund Request.
 
 **Refund**:
 The money returned to a learner after their Refund Request is approved. It is always the full amount they paid. A declined Refund Request has no Refund.
 _Avoid_: Reversal, Cancellation, Chargeback
 
 **Pending Refund**:
-A Refund the team has approved where the money hasn't been confirmed as sent yet.
+A Refund an Admin has approved where the money hasn't been confirmed as sent yet.
 _Avoid_: Pending (for a Refund Request awaiting review)
 
 **Issued Refund**:
@@ -55,4 +61,8 @@ A Refund where the money has been confirmed as sent back to the learner.
 _Avoid_: Completed, Paid out
 
 **Failed Refund**:
-A Refund where the money couldn't be sent. The Refund Request stays approved, because the decision hasn't changed.
+A Refund where the money couldn't be sent. The Refund Request stays approved, because the decision hasn't changed, and the same Refund can still become an Issued Refund once the money goes through.
+
+**Chargeback**:
+Money forced back to a learner through their bank or card issuer, outside the Refund Request process. No Admin approves or declines it.
+_Avoid_: Refund, Dispute (for a Refund Request)
