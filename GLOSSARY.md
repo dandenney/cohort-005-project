@@ -62,7 +62,3 @@ _Avoid_: Completed, Paid out
 
 **Failed Refund**:
 A Refund where the money couldn't be sent. The Refund Request stays approved, because the decision hasn't changed, and the same Refund can still become an Issued Refund once the money goes through.
-
-**Chargeback**:
-Money forced back to a learner through their bank or card issuer, outside the Refund Request process. No Admin approves or declines it.
-_Avoid_: Refund, Dispute (for a Refund Request)
