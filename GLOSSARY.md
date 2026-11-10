@@ -50,7 +50,7 @@ A Refund Request an Admin has turned down, with a note telling the learner why. 
 
 **Refund**:
 The money returned to a learner after their Refund Request is approved. It is always the full amount they paid. A declined Refund Request has no Refund.
-_Avoid_: Reversal, Cancellation, Chargeback (a different thing)
+_Avoid_: Reversal, Cancellation, Chargeback
 
 **Pending Refund**:
 A Refund an Admin has approved where the money hasn't been confirmed as sent yet.
